@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Widget.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.Widget.AppWidgetContainer"
+    android:background="@android:color/black">
+
+    <Button
+        android:id="@+id/Canva"
+        android:layout_width="127dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginBottom="317dp"
+        android:text="Canva" />
+
+    <Button
+        android:id="@+id/Portal"
+        android:layout_width="134dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="237dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="317dp"
+        android:text="Portal" />
+</RelativeLayout>
